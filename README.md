@@ -35,6 +35,7 @@ Specifications:
 Why did you make it?
 
 I wanted to provide an upgraded device to provide full format display capabilities to the PaspberryPi PR2040 world and make use of all the analog video displays and composite video inputs that are still available on many LCD TV. This board is the progression of my 2 Arduino Shields NTSC/PAL Video Display Shield {https://hackaday.io/project/21097-ntscpal-video-display-shield} and VGA Shield Wing {https://hackaday.io/project/170499-vga-shield-wing}.
+
 What makes it special?
 
 This is an option to provide video capabilities for the RP2040 with 4 outputs, that uses a dedicated framebuffer + hardware to generate the video signal. This keeps the controller free for its main tasks and does display updates through fast SPI transfers. There are a lot of solutions out there that use the microcontroller itself and its internal timing and memory peripherals for video signal generation. Those take valuable resource and computing power away from the microcontroller.
