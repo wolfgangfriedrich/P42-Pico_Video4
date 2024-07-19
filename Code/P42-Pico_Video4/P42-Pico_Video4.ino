@@ -11,7 +11,7 @@
 
 // Resources:
 // https://hackaday.io/project/196770-rpi-pico-video4
-// https://github.com/wolfgangfriedrich/Pico-Video4
+// https://github.com/wolfgangfriedrich/P42-Pico_Video4
 
 // supported resolutions:
 //  NTSC 320x200x8bit 

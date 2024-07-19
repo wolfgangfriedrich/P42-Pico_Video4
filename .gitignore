@@ -31,3 +31,10 @@ Output/
 production/
 *.xlsx
 *.docx
+*LMI*
+
+
+# KiCAD design files
+*.kicad_*
+fp-info-cache
+

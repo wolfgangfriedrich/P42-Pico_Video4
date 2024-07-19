@@ -9,7 +9,7 @@
 
 // Resources:
 // https://hackaday.io/project/196770-rpi-pico-video4
-// https://github.com/wolfgangfriedrich/Pico-Video4
+// https://github.com/wolfgangfriedrich/P42-Pico_Video4
 
 // supported resolutions:
 //  NTSC 320x200x8bit 
@@ -363,22 +363,22 @@ void loop() {
 	incomingByte = Serial.read();
 
 	P42Display.ClearScreen ( CH0, 0x5c );
-	P42Display.PrintString ( CH0, (char*) "**** ARDUINO P42 VIDEO4 SHIELD ****", 8, 0, 0x55);
+	P42Display.PrintString ( CH0, (char*) "  ****  P42 PICO VIDEO4 BOARD  ****", 8, 0, 0x55);
 	P42Display.PrintString ( CH0, (char*) "16M FLASH SYSTEM A LOT OF BYTES FREE.", 8, 16, 0x54);
 	P42Display.PrintString ( CH0, (char*) "CH0 READY.", 0, 32, 0x53);
 
 	P42Display.ClearScreen ( CH1, 0x7c );
-	P42Display.PrintString ( CH1, (char*) "**** ARDUINO P42 VIDEO4 SHIELD ****", 8, 0, 0x65);
+	P42Display.PrintString ( CH1, (char*) "  ****  P42 PICO VIDEO4 BOARD  ****", 8, 0, 0x65);
 	P42Display.PrintString ( CH1, (char*) "16M FLASH SYSTEM A LOT OF BYTES FREE.", 8, 16, 0x64);
 	P42Display.PrintString ( CH1, (char*) "CH1 READY.", 0, 32, 0x63);
 
 	P42Display.ClearScreen ( CH2, 0x8c );
-	P42Display.PrintString ( CH2, (char*) "**** ARDUINO P42 VIDEO4 SHIELD ****", 8, 0, 0x75);
+	P42Display.PrintString ( CH2, (char*) "  ****  P42 PICO VIDEO4 BOARD  ****", 8, 0, 0x75);
 	P42Display.PrintString ( CH2, (char*) "16M FLASH SYSTEM A LOT OF BYTES FREE.", 8, 16, 0x74);
 	P42Display.PrintString ( CH2, (char*) "CH2 READY.", 0, 32, 0x73);
 
 	P42Display.ClearScreen ( CH3, 0xec );
-	P42Display.PrintString ( CH3, (char*) "**** ARDUINO P42 VIDEO4 SHIELD ****", 8, 0, 0x85);
+	P42Display.PrintString ( CH3, (char*) "  ****  P42 PICO VIDEO4 BOARD  ****", 8, 0, 0x85);
 	P42Display.PrintString ( CH3, (char*) "16M FLASH SYSTEM A LOT OF BYTES FREE.", 8, 16, 0x84);
 	P42Display.PrintString ( CH3, (char*) "CH3 READY.", 0, 32, 0x83);
 

@@ -12,9 +12,9 @@
 #define VS23S040D_h
 
 // *** Select Video Resolution here ***
-#define NTSC320x200
+// #define NTSC320x200
 // #define NTSC426x200
-// #define PAL300x240
+#define PAL300x240
 // #define PAL500x240
 
 // *** Select Platform here ***
