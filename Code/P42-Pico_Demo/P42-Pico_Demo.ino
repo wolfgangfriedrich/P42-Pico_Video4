@@ -195,11 +195,11 @@ void loop() {
 		P42Display.FilledRectangle( CH3, (i*XSIZEREC),              (j*YSIZEREC),              (i*XSIZEREC)+(XSIZEREC-1), (j*YSIZEREC)+(YSIZEREC-1), (j*16)+i);	// Draw colored rectangles
 		P42Display.FilledRectangle( CH3, (i*XSIZEREC),              (j*YSIZEREC)+(YSIZEREC-1), (i*XSIZEREC)+(XSIZEREC-1), (j*YSIZEREC)+(YSIZEREC-1), 0);			// Draw black horizontal line
 		P42Display.FilledRectangle( CH3, (i*XSIZEREC)+(XSIZEREC-1), (j*YSIZEREC),              (i*XSIZEREC)+(XSIZEREC-1), (j*YSIZEREC)+(YSIZEREC-1), 0);			// Draw black vertical line
+	}
 
+    delay(500); 
 		P42Display.PrintString ( CH0, (char*) "Status and Progress on Serial Monitor", 0, 0, 0x13);
 		P42Display.PrintString ( CH0, (char*) "115200 8N1.", 0, 8, 0x13);
-
-	}
 
 	Serial.println( ("Display Image [press key]") );
 	while (Serial.available() == 0) {};
