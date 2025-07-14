@@ -1,4 +1,4 @@
-// Demo Sketch for P42 VGA Shield
+// Demo Sketch for P42 Pico Video4 board
 //  Using 4x Composite Video Output
 // (c) Pier42 Electronics Design
 //     https://www.tindie.com/stores/pier42/
@@ -40,7 +40,7 @@ digitalWrite(OUTLED, HIGH);
   delay(1000);    // wait for serial port to be configured
 
 	Serial.println("");
-	Serial.println(F("P42 VGA Shield Test - Composite Output"));
+	Serial.println(F("P42 Pico Video4 Board Test - Composite Output"));
 #ifdef NTSC320x200 
 		Serial.println(F("Resolution: NTSC 320x200 8bit"));
 #endif

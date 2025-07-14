@@ -32,9 +32,11 @@ production/
 *.xlsx
 *.docx
 *LMI*
-
+*.txt
 
 # KiCAD design files
 *.kicad_*
 fp-info-cache
 
+Order/
+Frames/
